@@ -5,18 +5,17 @@
     <title>axolotl.live</title>
   </head>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
   <style media="screen">
     body{
-      height: 100%;
+      font-family: 'Roboto', sans-serif;
       margin: 0;
       height: 100vh;
-      font-family: 'Roboto', sans-serif;
     }
     .main{
       min-width: 100%;
       min-height: 100%;
-      text-align: center;
       background: linear-gradient(230deg,#a24bcf,#4b79cf,#4bc5cf);
       background-size: 300% 300%;
       -webkit-animation: MoveBG 15s ease infinite;
@@ -33,10 +32,15 @@
     }
     .contact{
       font-family: 'Open Sans',Arial,Helvetica Neue,sans-serif;
-      letter-spacing: 2px;
+      letter-spacing: 2.5px;
       font-weight: 300;
+      font-size: 3vh;
       text-align: center;
       color: #DFDFDF;
+    }
+    img{
+      width: 300px;
+      margin: 0 auto;
     }
     @-webkit-keyframes MoveBG {
       0%{background-position:0% 84%}
